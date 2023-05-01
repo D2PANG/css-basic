@@ -1,0 +1,26 @@
+.box1 {
+    height: 400px;
+    background-color: red;
+    float: left;
+}
+
+.box2 {
+    height: 200px;
+    background-color: blue;
+    float: right;
+}
+
+/* 중복되는 코드를 box로 묶어서 해결 */
+.box {
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* .box3 {
+    clear: both;
+} */
+
+.clearfix {
+    clear: both;
+}
